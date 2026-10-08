@@ -203,7 +203,7 @@
 
 
             <form
-                action="{{ route('login.store') }}"
+                action="{{ route('login.store', [], true) }}"
                 method="POST"
             >
 
@@ -273,7 +273,7 @@
 
                 Don't have an account?
 
-                <a href="{{ route('register') }}">
+                <a href="{{ route('register', [], true) }}">
                     Register
                 </a>
 
